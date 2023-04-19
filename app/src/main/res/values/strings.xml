@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Testovoe3</string>
+    <string name="schedule">SCHEDULE</string>
+    <string name="guess_game">GUESS GAME</string>
+    <string name="transfers">TRANSFERS</string>
+    <string name="settings">SETTINGS</string>
+    <string name="notifications">NOTIFICATIONS</string>
+    <string name="background">BACKGROUND</string>
+    <string name="draw">DRAW</string>
+    <string name="who_win">WHO WIN?</string>
+    <string name="next">NEXT</string>
+</resources>

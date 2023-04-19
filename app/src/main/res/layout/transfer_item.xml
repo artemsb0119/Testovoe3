@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/constraint_white"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textViewPlayer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:textAlignment="center"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="?attr/colorOnSecondary"
+        android:text="21.04"
+        android:layout_gravity="center"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imageHoz"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.2"/>
+
+    <TextView
+        android:id="@+id/hozTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Зенит"
+        android:textAlignment="center"
+        android:layout_weight="0.3"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="?attr/colorOnSecondary"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imageStrelka"
+        android:layout_width="0dp"
+        android:src="@drawable/arrow"
+        android:layout_height="40dp"
+        android:layout_weight="0.2"/>
+
+    <ImageView
+        android:id="@+id/imageGos"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.2"/>
+
+    <TextView
+        android:id="@+id/gostiTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Зенит"
+        android:textAlignment="center"
+        android:layout_weight="0.3"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="?attr/colorOnSecondary"
+        android:textSize="14sp" />
+
+</LinearLayout>
